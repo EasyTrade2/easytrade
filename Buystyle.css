@@ -1,0 +1,30 @@
+body{
+    
+    background-color: blueviolet;
+}
+h1{
+    margin-top: 10px;
+    
+    margin-right: 10px;
+    
+    margin-left: 15px;
+
+    text-align: right;
+
+    font-style: oblique;
+
+    color: powderblue;
+
+}
+
+
+@media only right and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-9 {width: 75%;}
+    .button {width: 75%;}
+@media only right and (min-width: 768px) {
+  /* For desktop: */
+  .col-6 {width: 50%;}
+    .button{width: 50%;}    
+    
+    	
